@@ -1,0 +1,13 @@
+FUNCTION INT Rest ¡INT n!:
+	IF ¡ n == 1 !:
+		RETURN n;
+	.ELSE:
+		Rest¡n-1!;
+	.
+.
+
+FUNCTION MAIN¡!:
+	INT num = Rest¡1!;
+	PRINT num;
+.
+

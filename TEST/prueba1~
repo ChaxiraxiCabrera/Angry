@@ -1,0 +1,17 @@
+FUNCTION INT Fibo¡INT n!:
+	IF ¡n < 2!:
+		RETURN n;
+	.ELSE:
+		INT a1 = Fibo¡n-1!;
+		INT a2 = Fibo¡n-2!;
+		RETURN a1+a2;
+	.
+.
+
+FUNCTION MAIN¡!:
+	INT num = 0;	
+	FOR ¡INT i = 0, i<100, i = i + 1!:
+		num = Fibo¡a!;
+		PRINT num;
+	.  
+.

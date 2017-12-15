@@ -1,0 +1,14 @@
+FUNCTION INT Nano¡!:
+	FOR ¡ INT i = 0, i < 100, i = i +1!:
+		PRINT i;
+		FOR ¡INT j = 0, j < 1, j = j + 1!:
+			PRINT "wait\n";
+		.
+	.
+	RETURN 0;
+.
+
+FUNCTION MAIN¡!:
+	Nano¡!;
+.
+

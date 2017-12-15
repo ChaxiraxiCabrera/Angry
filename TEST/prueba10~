@@ -1,0 +1,15 @@
+INT max = 10;
+INT exp = 3;
+
+FUNCTION MAIN¡!:
+	INT value = 0;
+	FOR ¡INT i = 0, i < max, i = i+ 1!:
+		value = i;		
+		FOR ¡INT j = exp-1 , j > 0 , j = j - 1!:
+			value = value * i;		
+		.
+		PRINT value;
+	.
+	PRINT "end\n";
+}
+

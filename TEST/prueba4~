@@ -1,0 +1,22 @@
+I a = 1;
+I b = 2;
+I c = 3;
+I d = 4;
+I e = 5;
+I f = 6;
+I g = 7;
+I h = 8;
+I i = 9;
+
+#ZOP(){
+	print a;
+	print b;
+	print c;
+	print d;
+	print e;
+	print f;
+	print g;
+	print h;
+	print i;
+}
+

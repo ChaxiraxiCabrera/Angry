@@ -1,0 +1,12 @@
+INT a = 10;
+INT b = 100;
+INT c = 1000;
+
+FUNCTION MAIN¡!:
+	PRINT "Init\n";
+	FOR ¡ INT i = 0, i < 10, i = i + 1!:
+		PRINT i; 	
+	.
+	PRINT "END\n";
+.
+

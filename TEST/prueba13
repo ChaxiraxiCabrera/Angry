@@ -1,0 +1,7 @@
+FUNCTION MAIN¡!:
+	FLOAT a = 3.4;
+	FLOAT b = 4.5;
+	FLOAT c = a - b;	
+
+	PRINT c;
+.

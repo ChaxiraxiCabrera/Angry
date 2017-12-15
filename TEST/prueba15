@@ -1,0 +1,15 @@
+FUNCTION MAIN¡!:
+	...resultado es 3
+	INT a = 1+2;
+	...resultado es 5
+	INT b = 1+2*2;
+	...resultado es 3
+	INT c = 1+2*2/2;
+	...resultado es 6
+	INT d = ¡1+2!*2;
+	
+	PRINT a;
+	PRINT b;
+	PRINT c;
+	PRINT d;
+.

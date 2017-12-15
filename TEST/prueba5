@@ -1,0 +1,30 @@
+INT a = 10;
+INT b = 100;
+INT c = 1000;
+
+FUNCTION MAIN¡!:
+	PRINT "Init\n";
+	INT j = 0;
+	IF ¡ b<500!:
+		PRINT "b<500\n";
+		b = b - 100;
+
+		IF ¡ b < 400!:
+			PRINT "b<200\n";
+		.ELSE:
+			PRINT "b>200\n";
+		.	
+
+	.ELSE:
+		PRINT "b>500\n";
+		b = b + 100;
+
+		IF ¡b > 700!:
+ 			PRINT "b>700\n";
+		.ELSE:
+			PRINT "b<700\n";
+		.	
+	.
+	PRINT "END\n";
+.
+

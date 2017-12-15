@@ -1,0 +1,19 @@
+INT a = 10;
+INT b = 100;
+INT c = 1000;
+
+FUNCTION INT Sum ¡INT a1, INT a2!:
+	INT suma = a1 + a2;
+	RETURN suma;
+.
+
+FUNCTION INT Mult ¡INT res1!:
+	res1 = res1 * 10;
+	RETURN res1;
+.
+
+FUNCTION MAIN¡!:
+	INT res = Sum¡2,c!;
+	PRINT res;
+.
+

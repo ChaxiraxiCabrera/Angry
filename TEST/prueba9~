@@ -1,0 +1,13 @@
+#rest:I(I n){
+	if n == 1 {
+		return n;
+	}else{
+		rest(n-1);
+	}
+}
+
+#ZOP(){
+	I num = rest(1);
+	print num;
+}
+

@@ -1,0 +1,15 @@
+
+#nano:I(){
+	loop I i = 0, i < 100, i +=1{
+		print i;
+		loop I j = 0, j < 1, j += 1{
+			print "wait\n";
+		}
+	}
+	return 0;
+}
+
+#ZOP(){
+	nano();
+}
+

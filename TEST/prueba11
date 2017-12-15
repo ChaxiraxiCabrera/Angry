@@ -1,0 +1,4 @@
+FUNCTION MAIN ¡!:
+	FLOAT a = 3.15;
+	PRINT a ;
+.

@@ -1,0 +1,7 @@
+FUNCTION MAIN¡!:
+	INT i = 5;
+	WHILE ¡i > 0!:
+		PRINT i;
+		i = i-1;
+	.
+.

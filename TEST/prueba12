@@ -1,0 +1,5 @@
+FLOAT a = 0.0;
+FUNCTION MAIN¡!:
+	a = 3.5;
+	PRINT a;
+.

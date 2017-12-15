@@ -1,0 +1,28 @@
+FUNCTION INT Func4¡!:
+	PRINT "Return Func4\n";
+	RETURN 4;
+.
+
+FUNCTION INT Func3¡!:
+	INT f3 = Func4¡!;
+	PRINT "Return Func3\n";
+	RETURN f3;
+.
+
+FUNCTION INT Func2¡!:
+	INT f2 = Func3¡!;
+	PRINT "Return Func2\n";
+	RETURN f2;
+.
+
+FUNCTION INT Func1¡!:
+	INT f1 = Func2¡!;
+	PRINT "Return Func1\n";
+	RETURN f1;
+.
+
+#ZOP(){
+	I num = func1();
+	print num;
+}
+

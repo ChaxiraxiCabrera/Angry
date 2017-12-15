@@ -1,0 +1,22 @@
+INT a = 1;
+INT b = 2;
+INT c = 3;
+INT d = 4;
+INT e = 5;
+INT f = 6;
+INT g = 7;
+INT h = 8;
+INT i = 9;
+
+FUNCTION MAIN¡!:
+	PRINT a;
+	PRINT b;
+	PRINT c;
+	PRINT d;
+	PRINT e;
+	PRINT f;
+	PRINT g;
+	PRINT h;
+	PRINT i;
+.
+

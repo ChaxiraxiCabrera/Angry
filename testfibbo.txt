@@ -1,0 +1,29 @@
+
+INT cuenta = 5;
+FUNCTION INT Fibo ¡INT n!:
+	INT a2;
+	IF ¡n >= 2!:
+		INT a1 = Fibo¡n-1!;
+		a2 = Fibo¡n-2!;
+		RETURN a1+a2; 
+	.ELSE:
+		RETURN n;
+	.
+.
+
+FUNCTION INT Prueba¡!:
+	INT a = 0;
+	WHILE ¡a<10!:
+		INT num = Fibo¡a!;
+		PRINT num;
+		a = a + 1;
+	. 
+	RETURN a;
+.
+
+FUNCTION MAIN¡!:
+	INT var = Prueba¡!;
+	
+	PRINT "ACABADO \n"; 
+.
+

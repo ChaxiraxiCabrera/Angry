@@ -1,0 +1,13 @@
+FUNCTION INT Factorial¡INT n!:
+	IF¡n == 0!:
+		RETURN 1;
+	.ELSE:
+		INT r = Factorial¡n-1!;
+		RETURN n*r;
+	.
+.
+
+FUNCTION MAIN ¡!:
+	INT a = Factorial¡3!;
+	PRINT a;
+.
